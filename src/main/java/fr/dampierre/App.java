@@ -36,7 +36,7 @@ public class App {
         } else {
             System.out.println("Vous étiez à " + pas + " de la réponse");
             System.out.println("Le nombre auquel je pensais était " + nombreChoisi);
-            }
+        }
 
         System.out.println("------------------------------------------------------------");
 
