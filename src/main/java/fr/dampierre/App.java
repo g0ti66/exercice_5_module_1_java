@@ -7,7 +7,6 @@ public class App {
     
     public static void main(String[] args) {
 
-
         // Initialisation du clavier et du choix aléatoire
         Random random = new Random();
         Scanner clavier = new Scanner(System.in);
