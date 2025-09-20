@@ -14,7 +14,7 @@ public class App {
         System.out.println("EXERCICE 5");
         System.out.println("------------------------------------------------------------");
         
-        System.out.println("Je pense à un nombre entre 1 et 100 incluse. Devinez lequel.");
+        System.out.println("Je pense à un nombre entre 1 et 100 inclus. Devinez lequel.");
 
         // Initialiser un nombre random entre 1 et 100
         int nombreChoisi = random.nextInt(100)+1;
