@@ -17,7 +17,7 @@ public class App {
         System.out.println("Je pense à un nombre entre 1 et 100 inclus. Devinez lequel.");
 
         // Initialiser un nombre random entre 1 et 100
-        int nombreChoisi = random.nextInt(100)+1;
+        int nombreOrdinateur = random.nextInt(100)+1;
 
         System.out.print("Entrer un nombre : ");
         int nombreUtilisateur = clavier.nextInt();
@@ -27,14 +27,14 @@ public class App {
         System.out.println("Vous proposez : " + nombreUtilisateur);
 
         // Valeur absolue
-        int pas = Math.abs(nombreUtilisateur - nombreChoisi);
+        int pas = Math.abs(nombreUtilisateur - nombreOrdinateur);
 
         // Résultat
-        if (nombreUtilisateur == nombreChoisi) {
+        if (nombreUtilisateur == nombreOrdinateur) {
             System.out.println("Bien joué ! Vous avez vu juste.");
         } else {
             System.out.println("Vous étiez à " + pas + " de la réponse");
-            System.out.println("Le nombre auquel je pensais était " + nombreChoisi);
+            System.out.println("Le nombre auquel je pensais était " + nombreOrdinateur);
         }
 
         System.out.println("------------------------------------------------------------");
